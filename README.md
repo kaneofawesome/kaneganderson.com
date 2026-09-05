@@ -30,17 +30,27 @@ Each post carries `joomla_id` (its old `jos_content` row) and, where the old URL
 appeared in the server access logs, an `aliases` entry so the previous link
 still resolves.
 
+## Deployment
+
+Pushes to `main` trigger `.github/workflows/hugo.yml`, which builds with a
+pinned Hugo version and publishes to GitHub Pages. `static/CNAME` holds the
+custom domain so it survives every deploy.
+
 ## Redirects
 
-Joomla served SEF URLs with `/index.php/` in the path. `static/_redirects`
-handles the whole class in one rule (Cloudflare Pages / Netlify syntax):
+Joomla served SEF URLs with `/index.php/` in the path. Every one of them is
+handled by Hugo `aliases` in front matter, which emit meta-refresh pages at the
+old paths. That is deliberately **host-independent** — it works on GitHub
+Pages, Netlify, Cloudflare Pages, or S3, so moving hosts later costs nothing
+but a DNS change.
 
-```
-/index.php/*  /:splat  301
-```
+Coverage: 81 posts, the six section listings, Joomla's `featured` view, and
+`/index.php/` itself. The remainder of the old URLs in the access logs were
+bot noise (`/phpinfo`, `/node/add`, injection probes) and are intentionally
+left to 404.
 
-Hugo *also* emits per-post meta-refresh alias pages under `public/index.php/`,
-so the old links resolve even on a host that ignores `_redirects`.
+`static/_redirects` is kept as a one-line wildcard for hosts that support it.
+It is redundant on GitHub Pages and harmless there.
 
 ## Provenance
 

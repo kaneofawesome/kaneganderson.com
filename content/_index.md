@@ -7,6 +7,9 @@ slug: "welcome"
 featured: true
 author: "Super User"
 joomla_id: 2
+aliases:
+  - /index.php
+  - /index.php/
 ---
 
 Hello from Kane, I'm glad you're here!

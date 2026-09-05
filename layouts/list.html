@@ -4,8 +4,10 @@
 <ul class="posts">
   {{ range .Paginator.Pages }}
   <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <a class="entry" href="{{ .RelPermalink }}">
+      <span class="title">{{ .Title }}</span>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </a>
   </li>
   {{ end }}
 </ul>

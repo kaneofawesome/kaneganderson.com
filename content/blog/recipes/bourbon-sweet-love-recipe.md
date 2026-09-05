@@ -8,6 +8,7 @@ categories: ["Recipes"]
 cover: "/images/2024/06/03/10000064181.jpg"
 author: "Kane"
 aliases:
+  - /index.php/blog/articles/bourbon-sweet-love-recipe
   - /index.php/blog/recipes/bourbon-sweet-love-recipe
 joomla_id: 43
 ---

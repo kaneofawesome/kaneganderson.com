@@ -31,7 +31,7 @@ Our Fan Controller has a firmware architecture that splits the code base into st
 
 This all came about because I had some code in our BSP that defines a `binary_output`. We had a lot of repeated code (one for each gpio output). So I combined them all into a monstrous macro…
 
-```
+```c
 #define CREATE_BINARY_OUTPUT(name, gpio_port, gpio_pin, mode, pull, default_state) \
   binary_output_internal name##_internal; \
   GPIO_Handle name##_pin = { .port = (gpio_port), .pin = (gpio_pin) }; \
@@ -89,7 +89,7 @@ To allow C code to call C++ functions:
 
 You need to write a C-compatible wrapper in C++ that exposes functions using `extern "C"` to disable name mangling:
 
-```
+```c
 // mylib.cpp
 #include <string>
 
@@ -107,7 +107,7 @@ extern "C" const char* get_message() {
 
 Then provide a header that can be included from C:
 
-```
+```c
 // mylib.h
 #ifdef __cplusplus
 extern "C"
@@ -123,7 +123,7 @@ const char* get_message();
 
 Compile your C++ code with a C++ compiler, your C code with a C compiler, and link them together using the C++ linker. For example:
 
-```
+```c
 g++ -c mylib.cpp gcc -c main.c g++ -o my_program mylib.o main.o
 ```
 
@@ -171,7 +171,7 @@ Absolutely! Here's a minimal working example demonstrating how **C code can call
 
 ### 🔹 Step 1: `mylib.cpp` (C++ file)
 
-```
+```c
 // mylib.cpp
 #include <iostream>
 void bar() {
@@ -187,7 +187,7 @@ extern "C" void foo() {
 
 ### 🔹 Step 2: `mylib.h` (C/C++ header)
 
-```
+```c
 // mylib.h
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -205,7 +205,7 @@ void foo(); // C-visible function
 
 ### 🔹 Step 3: `main.c` (C file)
 
-```
+```c
 // main.c
 #include "mylib.h"
 int main() {
@@ -220,7 +220,7 @@ int main() {
 
 #### Compile and link:
 
-```
+```c
 g++ -c mylib.cpp        # Compile the C++ code
 gcc -c main.c           # Compile the C code
 g++ -o app main.o mylib.o   # Link using g++ to bring in the C++ runtime
@@ -230,7 +230,7 @@ g++ -o app main.o mylib.o   # Link using g++ to bring in the C++ runtime
 
 You should see:
 
-```
+```c
 Hello from C++ function 'bar()'!
 ```
 
@@ -261,7 +261,7 @@ Here’s a **minimal working example** of what you’re describing:
 
 ### 🔹 Step 1: `mylib.cpp` (C++ code)
 
-```
+```c
 // mylib.cpp
 #include <iostream>
 #include "mylib.h"
@@ -296,7 +296,7 @@ extern "C" void destroy_interface(CallbackInterface* iface) {
 
 ### 🔹 Step 2: `mylib.h` (C-compatible header)
 
-```
+```c
 // mylib.h
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -319,7 +319,7 @@ void destroy_interface(CallbackInterface* iface);
 
 ### 🔹 Step 3: `main.c` (C consumer)
 
-```
+```c
 // main.c
 #include "mylib.h"
 int main() {
@@ -335,7 +335,7 @@ int main() {
 
 ### 🔹 Step 4: Build and Run
 
-```
+```c
 g++ -c mylib.cpp        # Compile C++ part
 gcc -c main.c           # Compile C part
 g++ -o app main.o mylib.o   # Link with C++ linker
@@ -344,7 +344,7 @@ g++ -o app main.o mylib.o   # Link with C++ linker
 
 Expected output:
 
-```
+```c
 Bar::do_work() from C++ class
 ```
 
@@ -370,7 +370,7 @@ This pattern scales well for plug-in architectures or when wrapping modern C++ l
 
 Nice, thanks. You're crushing it. Hey just wondering if we can do all this without using the heap? Can a static class produce two copies of `CallbackInterface` like this?
 
-```
+```c
 CallbackInterface iface;
 CallbackInterface iface2;
 static_class_create_interface(iface, 1);
@@ -400,7 +400,7 @@ Let’s walk through a version of your idea using **stack/static allocation only
 
 ### 🔹 Step 1: `mylib.cpp` (no heap, static-only)
 
-```
+```c
 // mylib.cpp
 #include <iostream>
 #include "mylib.h"
@@ -441,7 +441,7 @@ extern "C" void static_class_create_interface(CallbackInterface* out, int id) {
 
 ### 🔹 Step 2: `mylib.h` (unchanged)
 
-```
+```c
 // mylib.h
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -463,7 +463,7 @@ void static_class_create_interface(CallbackInterface* out, int id);
 
 ### 🔹 Step 3: `main.c` (your example — now totally valid!)
 
-```
+```c
 // main.c
 #include "mylib.h"
 int main() {
@@ -481,7 +481,7 @@ int main() {
 
 ### 🔹 Step 4: Compile & Run
 
-```
+```c
 g++ -c mylib.cpp
 gcc -c main.c
 g++ -o app main.o mylib.o
@@ -490,7 +490,7 @@ g++ -o app main.o mylib.o
 
 Expected output:
 
-```
+```c
 Bar[1]::do_work() Bar[2]::do_work()
 ```
 
@@ -537,7 +537,7 @@ Even if your C API is heap-free and exposes only `CallbackInterface` with user-p
 
 **Dangerous:**
 
-```
+```c
 class Bar {
  int last_value; // Not safe if shared or mutated across calls
 public:
@@ -558,7 +558,7 @@ public:
 
 If the C layer passes a stack variable as context:
 
-```
+```c
 Bar my_local_bar;
 CallbackInterface iface = { &my_local_bar, callback };
 ```
@@ -579,7 +579,7 @@ If the same `CallbackInterface` is invoked from multiple threads or interrupt co
 
 Never trust the context blindly:
 
-```
+```c
 static void callback(void* ctx) {
  if (!ctx) return;
   Bar* self = static_cast<Bar*>(ctx);
@@ -644,7 +644,7 @@ You’ll get:
 
 ## 🔹 Step 1: `mylib.h` (public C header)
 
-```
+```c
 // mylib.h
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -667,7 +667,7 @@ void init_interface(void* cpp_obj, CallbackInterface* out);
 
 ## 🔹 Step 2: `mylib.cpp` (C++ implementation, no heap)
 
-```
+```c
 // mylib.cpp
 #include <iostream>
 #include "mylib.h"
@@ -698,7 +698,7 @@ extern "C" void init_interface(void* cpp_obj, CallbackInterface* out) {
 
 ## 🔹 Step 3: `main.c` (C code owns the object and interface)
 
-```
+```c
 // main.c
 #include "mylib.h"
 // Pretend opaque C++ type
@@ -721,7 +721,7 @@ int main() {
 
 ## 🔹 Step 4: Add `placement.cpp` for `create_bar_in_place`
 
-```
+```c
 // placement.cpp
 #include "mylib.h"
 #include <new>
@@ -735,7 +735,7 @@ extern "C" void* create_bar_in_place(void* mem, int id) {
 
 ## 🧪 Step 5: Build & Run
 
-```
+```c
 g++ -c mylib.cpp
 g++ -c placement.cpp
 gcc -c main.c
@@ -745,7 +745,7 @@ g++ -o app main.o mylib.o placement.o
 
 Expected output:
 
-```
+```c
 Bar[42]::do_work()
 ```
 
@@ -757,7 +757,7 @@ Bar[42]::do_work()
 - **C++ object created from C memory**: matches embedded systems' control needs.
 - **Placement new is supported by both GCC and IAR**, but with IAR you may need to manually define placement `operator new` if not linked in — trivial to do:
 
-```
+```c
 inline void* operator new(size_t, void* ptr) noexcept { return ptr; }
 ```
 
@@ -787,7 +787,7 @@ Excellent — keeping `Bar` *opaque* to C is a clean and safe pattern for intero
 
 ## 📁 File Breakdown
 
-```
+```c
 . ├── main.c             # C-side: owns Bar memory and interface
   ├── mylib.h            # Shared header, C/C++ compatible
   ├── mylib.cpp          # C++ logic (Bar and interface init)
@@ -798,7 +798,7 @@ Excellent — keeping `Bar` *opaque* to C is a clean and safe pattern for intero
 
 ## 🔹 `mylib.h` — forward-declare `Bar` for C
 
-```
+```c
 // mylib.h
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -824,7 +824,7 @@ void* create_bar_in_place(void* mem, int id);
 
 ## 🔹 `mylib.cpp` — C++ logic and wrapper
 
-```
+```c
 // mylib.cpp
 #include <iostream>
 #include "mylib.h"
@@ -853,7 +853,7 @@ extern "C" void init_interface(void* cpp_obj, CallbackInterface* out) {
 
 ## 🔹 `placement.cpp` — placement constructor
 
-```
+```c
 // placement.cpp
 #include "mylib.h"
 #include <new>
@@ -865,7 +865,7 @@ extern "C" void* create_bar_in_place(void* mem, int id) {
 
 > IAR note: if the linker complains about placement `new`, add this in `placement.cpp`:
 
-```
+```c
 void* operator new(size_t, void* ptr) noexcept { return ptr; }
 ```
 
@@ -873,7 +873,7 @@ void* operator new(size_t, void* ptr) noexcept { return ptr; }
 
 ## 🔹 `main.c` — only sees opaque `Bar`
 
-```
+```c
 // main.c
 #include "mylib.h"
 #include <stdio.h>
@@ -894,7 +894,7 @@ int main() {
 
 ## 🛠️ Build & Run
 
-```
+```c
 g++ -c mylib.cpp
 g++ -c placement.cpp
 gcc -c main.c
@@ -904,7 +904,7 @@ g++ -o app main.o mylib.o placement.o
 
 ✅ **Output:**
 
-```
+```c
 Bar[123]::do_work()
 ```
 

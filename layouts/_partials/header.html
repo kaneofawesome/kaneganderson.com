@@ -1,8 +1,12 @@
 <header class="site">
   <div class="wrap">
     <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
-    <nav>
-      {{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
-    </nav>
+    <div class="nav-group">
+      <nav>
+        {{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button"
+              title="Toggle dark mode" aria-label="Toggle dark mode">☾</button>
+    </div>
   </div>
 </header>

@@ -11,6 +11,7 @@ gallery:
   - "/images/2024/06/09/pxl_20240608_021332761.mp.jpg"
 author: "Kane"
 aliases:
+  - /index.php/blog/articles/mango-minute
   - /index.php/blog/recipes/mango-minute
 joomla_id: 44
 ---

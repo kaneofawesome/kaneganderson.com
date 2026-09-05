@@ -1,11 +1,14 @@
 {{ define "main" }}
+<h1>{{ site.Title }}</h1>
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
 <h2>Recent</h2>
 <ul class="posts">
   {{ range first 25 (where site.RegularPages "Section" "blog") }}
   <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <a class="entry" href="{{ .RelPermalink }}">
+      <span class="title">{{ .Title }}</span>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </a>
   </li>
   {{ end }}
 </ul>
