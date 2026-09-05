@@ -5,6 +5,7 @@ draft: false
 slug: "about-kane"
 categories: ["Journal"]
 featured: true
+cover: "/images/2025/08/25/anderson_kane_904-2136-heroic-jimstonephoto.com.png"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/about-kane

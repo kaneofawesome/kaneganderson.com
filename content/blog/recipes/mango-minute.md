@@ -5,6 +5,10 @@ lastmod: 2024-07-08T11:35:00Z
 draft: false
 slug: "mango-minute"
 categories: ["Recipes"]
+cover: "/images/2024/06/09/pxl_20240608_021311283.jpg"
+gallery:
+  - "/images/2024/06/09/pxl_20240608_0213112831.jpg"
+  - "/images/2024/06/09/pxl_20240608_021332761.mp.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/recipes/mango-minute

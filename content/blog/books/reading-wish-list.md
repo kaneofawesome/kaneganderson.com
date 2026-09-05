@@ -5,6 +5,7 @@ lastmod: 2023-10-21T19:20:19Z
 draft: false
 slug: "reading-wish-list"
 categories: ["Books"]
+cover: "/images/2023/10/21/brave_uhdy4st2ra.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/reading-wish-list

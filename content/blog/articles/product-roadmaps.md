@@ -5,6 +5,7 @@ lastmod: 2024-08-26T15:23:18Z
 draft: false
 slug: "product-roadmaps"
 categories: ["Blog"]
+cover: "/images/2024/08/26/product-roadmap.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/product-roadmaps

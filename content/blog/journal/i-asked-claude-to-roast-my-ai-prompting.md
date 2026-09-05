@@ -5,6 +5,7 @@ lastmod: 2026-03-31T02:00:49Z
 draft: false
 slug: "i-asked-claude-to-roast-my-ai-prompting"
 categories: ["Journal"]
+cover: "/images/2026/03/31/a_programmer_late_at_night_-see_image-_using_an_ai_chatbot_and_drinking_coffee._he_types_and_changes_seed2466868342-1.gif"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/i-asked-claude-to-roast-my-ai-prompting

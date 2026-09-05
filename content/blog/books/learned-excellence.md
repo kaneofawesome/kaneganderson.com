@@ -5,6 +5,7 @@ lastmod: 2025-01-03T18:21:44Z
 draft: false
 slug: "learned-excellence"
 categories: ["Books"]
+cover: "/images/2025/01/02/pxl_20250102_022908726.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/learned-excellence

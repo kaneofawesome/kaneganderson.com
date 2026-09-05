@@ -5,6 +5,7 @@ lastmod: 2025-12-22T19:11:06Z
 draft: false
 slug: "off-balance"
 categories: ["Books"]
+cover: "/images/2025/12/22/pxl_20251222_174958777.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/off-balance

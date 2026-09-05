@@ -5,6 +5,10 @@ lastmod: 2023-10-17T12:18:43Z
 draft: false
 slug: "perseverance-parenting-programming"
 categories: ["Blog"]
+cover: "/images/2023/10/17/boy-resigned.png"
+gallery:
+  - "/images/2023/10/17/boy-resigned1.png"
+  - "/images/2023/10/17/child-determined.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/perseverance-parenting-programming

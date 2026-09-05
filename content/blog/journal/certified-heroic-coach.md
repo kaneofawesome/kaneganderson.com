@@ -4,6 +4,7 @@ date: 2024-11-15T15:05:19Z
 draft: false
 slug: "certified-heroic-coach"
 categories: ["Journal"]
+cover: "/images/2024/11/15/sumatrapdf_cvza6p2y3f1.png"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/certified-heroic-coach

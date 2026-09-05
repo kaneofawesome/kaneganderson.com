@@ -5,6 +5,11 @@ lastmod: 2025-03-19T21:58:18Z
 draft: false
 slug: "minute-of-passion"
 categories: ["Recipes"]
+gallery:
+  - "/images/2025/03/19/1000010712.jpg"
+  - "/images/2025/03/19/1000010714.jpg"
+  - "/images/2025/03/19/1000010717.jpg"
+  - "/images/2025/03/19/1000010716.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/recipes/minute-of-passion

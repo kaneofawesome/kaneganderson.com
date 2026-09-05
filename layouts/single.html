@@ -6,7 +6,32 @@
     {{ with .Params.categories }} · {{ delimit . ", " }}{{ end }}
     {{ if gt .ReadingTime 1 }} · {{ .ReadingTime }} min read{{ end }}
   </p>
+
+  {{ with .Params.video }}
+    {{ $id := replaceRE `^.*(?:youtu\.be/|youtube\.com/watch\?v=|youtube\.com/embed/)([A-Za-z0-9_-]{11}).*$` "$1" . }}
+    {{ if ne $id . }}
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}" title="{{ $.Title }}"
+              loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    {{ else }}<p><a href="{{ . }}">{{ . }}</a></p>{{ end }}
+  {{ end }}
+
+  {{ with .Params.cover }}
+  <figure class="cover">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.cover_alt | default $.Title }}" loading="lazy">
+    {{ with $.Params.cover_alt }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+
   {{ .Content }}
+
+  {{ with .Params.gallery }}
+  <div class="gallery">
+    {{ range . }}<a href="{{ . | relURL }}"><img src="{{ . | relURL }}" alt="" loading="lazy"></a>{{ end }}
+  </div>
+  {{ end }}
+
   {{ with .Params.tags }}
   <p class="tags">{{ range . }}<a href="{{ (printf "/tags/%s/" (urlize .)) | relURL }}">#{{ . }}</a> {{ end }}</p>
   {{ end }}

@@ -5,6 +5,7 @@ lastmod: 2026-04-13T10:22:48Z
 draft: false
 slug: "how-do-others-perceive-you-regarding-leadership"
 categories: ["Journal"]
+cover: "/images/2026/04/08/oil-painting-of-a-leader-planting-a-flag-at-a-stony-summit-with-people-supporting-him..jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/how-do-others-perceive-you-regarding-leadership

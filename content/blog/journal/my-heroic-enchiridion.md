@@ -6,6 +6,7 @@ slug: "my-heroic-enchiridion"
 categories: ["Journal"]
 tags: ["Heroic"]
 featured: true
+cover: "/images/2024/10/25/20240529_143941.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/my-heroic-enchiridion

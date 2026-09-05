@@ -5,6 +5,7 @@ lastmod: 2023-11-06T17:43:02Z
 draft: false
 slug: "think-and-grow-rich"
 categories: ["Books"]
+cover: "/images/2023/11/06/wealth_of_subconscious.png"
 author: "Kane"
 aliases:
   - /index.php/blog/books/think-and-grow-rich

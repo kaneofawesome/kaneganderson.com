@@ -5,6 +5,7 @@ lastmod: 2025-09-23T02:12:29Z
 draft: false
 slug: "inspired"
 categories: ["Books"]
+cover: "/images/2025/09/22/inspired.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/inspired

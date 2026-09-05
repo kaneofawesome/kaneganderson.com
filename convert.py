@@ -199,6 +199,36 @@ for a in articles:
         fm.append(f'description: {yaml_str(html.unescape(a["metadesc"]).strip())}')
     if a['featured'] == '1':
         fm.append('featured: true')
+
+    # Helix Ultimate kept "post media" in the article's attribs blob, not in
+    # Joomla's own images column.
+    try:
+        att = json.loads(a['attribs'] or '{}')
+    except ValueError:
+        att = {}
+
+    cover = (att.get('helix_ultimate_image') or '').strip()
+    if cover:
+        fm.append(f'cover: {yaml_str(fix_img(cover))}')
+        alt = (att.get('helix_ultimate_image_alt_txt') or '').strip()
+        if alt:
+            fm.append(f'cover_alt: {yaml_str(alt)}')
+
+    gal = att.get('helix_ultimate_gallery')
+    if gal:
+        try:
+            imgs = json.loads(gal).get('helix_ultimate_gallery_images') or []
+        except (ValueError, AttributeError):
+            imgs = []
+        imgs = [fix_img(i) for i in imgs if i and i.strip()]
+        if imgs:
+            fm.append('gallery:')
+            for i in imgs:
+                fm.append(f'  - {yaml_str(i)}')
+
+    vid = (att.get('helix_ultimate_video') or '').strip()
+    if vid:
+        fm.append(f'video: {yaml_str(vid)}')
     author = users.get(a['created_by'], {}).get('name', '')
     if a['created_by_alias'].strip():
         author = a['created_by_alias'].strip()
@@ -226,14 +256,52 @@ for a in articles:
 
 # Only a handful of the images/ tree is actually referenced. Emit a script that
 # copies just those in, under their normalised names.
-lines = ['#!/bin/sh',
-         '# Copies the images actually referenced by the posts out of the Joomla',
-         '# images/ tree and into static/images/ under web-safe names.',
-         '# Usage: sh collect-images.sh /path/to/extracted/images',
-         'set -e', 'SRC="${1:?usage: collect-images.sh <extracted images dir>}"', '']
+import shlex
+
+lines = [
+    '#!/bin/sh',
+    '# Copies the images actually referenced by the posts out of the Joomla',
+    '# images/ tree into static/images/ under web-safe names.',
+    '#',
+    '# Joomla accumulated years of renames, so some database references point at',
+    '# files that no longer exist. Those are reported at the end rather than',
+    '# aborting the run; anything findable by basename is recovered.',
+    '#',
+    '# Usage: sh collect-images.sh /path/to/extracted/images',
+    '',
+    'SRC="${1:?usage: collect-images.sh <extracted images dir>}"',
+    '[ -d "$SRC" ] || { echo "not a directory: $SRC" >&2; exit 1; }',
+    ': > missing-images.txt',
+    'MISSING=0',
+    'RECOVERED=0',
+    '',
+    'copy() {',
+    '  dest="static/images/$2"',
+    '  if [ -f "$SRC/$1" ]; then',
+    '    mkdir -p "$(dirname "$dest")" && cp "$SRC/$1" "$dest"',
+    '    return',
+    '  fi',
+    '  hit=$(find "$SRC" -type f -iname "$(basename "$1")" 2>/dev/null | head -1)',
+    '  if [ -n "$hit" ]; then',
+    '    mkdir -p "$(dirname "$dest")" && cp "$hit" "$dest"',
+    '    echo "  recovered: $1"',
+    '    RECOVERED=$((RECOVERED+1))',
+    '    return',
+    '  fi',
+    '  echo "$1" >> missing-images.txt',
+    '  MISSING=$((MISSING+1))',
+    '}',
+    '',
+]
 for old, new in sorted(IMAGE_MAP.items()):
-    lines.append(f'mkdir -p "static/images/$(dirname \'{new}\')"')
-    lines.append(f'cp "$SRC/{old}" "static/images/{new}"')
+    lines.append(f'copy {shlex.quote(old)} {shlex.quote(new)}')
+lines += [
+    '',
+    f'echo "collected {len(IMAGE_MAP)} references: $((({len(IMAGE_MAP)} - MISSING))) present, '
+    '$RECOVERED recovered by search, $MISSING missing"',
+    '[ "$MISSING" -gt 0 ] && echo "see missing-images.txt" || rm -f missing-images.txt',
+    'exit 0',
+]
 (OUT / 'collect-images.sh').write_text('\n'.join(lines) + '\n')
 print(f'{len(IMAGE_MAP)} referenced images -> collect-images.sh')
 

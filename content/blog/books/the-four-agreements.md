@@ -5,6 +5,8 @@ lastmod: 2024-08-26T17:37:01Z
 draft: false
 slug: "the-four-agreements"
 categories: ["Books"]
+cover: "/images/2024/06/06/pxl_20240606_190018805.jpg"
+video: "https://youtu.be/84dYijIpWjQ?si=Gxqidja49VQpzteK"
 author: "Kane"
 aliases:
   - /index.php/blog/books/the-four-agreements

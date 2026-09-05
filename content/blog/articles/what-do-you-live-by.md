@@ -5,6 +5,7 @@ lastmod: 2023-11-18T20:05:21Z
 draft: false
 slug: "what-do-you-live-by"
 categories: ["Blog"]
+cover: "/images/2023/11/13/brave_ra7mdjzpd9.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/what-do-you-live-by

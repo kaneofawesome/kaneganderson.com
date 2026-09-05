@@ -5,6 +5,7 @@ lastmod: 2024-07-08T12:23:25Z
 draft: false
 slug: "bourbon-sweet-love-recipe"
 categories: ["Recipes"]
+cover: "/images/2024/06/03/10000064181.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/recipes/bourbon-sweet-love-recipe

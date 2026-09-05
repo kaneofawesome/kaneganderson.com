@@ -5,6 +5,7 @@ lastmod: 2023-12-06T04:16:26Z
 draft: false
 slug: "top-10"
 categories: ["Journal"]
+cover: "/images/2023/12/06/lightbulb-dall-e-2023-12-05-21.33.47-an-oil-painting-style-dreamy-image-featuring-a-lightbulb-with-a-large-10-in-the-middle.-the-image-should-convey-a-sense-of-wisdom-and-introspection.png"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/top-10

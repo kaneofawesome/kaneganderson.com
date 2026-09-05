@@ -4,6 +4,7 @@ date: 2023-10-30T12:00:08Z
 draft: false
 slug: "to-begin-you-must-study-the-end"
 categories: ["Blog"]
+cover: "/images/2023/10/30/brave_2z9p3yjl2v.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/to-begin-you-must-study-the-end

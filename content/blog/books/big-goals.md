@@ -5,6 +5,7 @@ lastmod: 2025-05-22T12:33:45Z
 draft: false
 slug: "big-goals"
 categories: ["Books"]
+cover: "/images/2025/05/22/pxl_20250218_115840519-2-1.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/big-goals

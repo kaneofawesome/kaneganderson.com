@@ -5,6 +5,7 @@ lastmod: 2025-12-22T17:47:45Z
 draft: false
 slug: "the-surrender-experiment"
 categories: ["Books"]
+cover: "/images/2025/12/22/pxl_20251222_174633485.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/the-surrender-experiment

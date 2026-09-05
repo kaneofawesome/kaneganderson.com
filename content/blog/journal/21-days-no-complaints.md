@@ -4,6 +4,7 @@ date: 2025-08-25T11:59:14Z
 draft: false
 slug: "21-days-no-complaints"
 categories: ["Journal"]
+cover: "/images/2025/08/25/1000012374.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/21-days-no-complaints

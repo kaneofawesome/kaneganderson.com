@@ -5,6 +5,7 @@ lastmod: 2023-10-12T18:41:19Z
 draft: false
 slug: "switching-context"
 categories: ["Blog"]
+video: "https://youtu.be/mJXr4bhrf9w?si=KIxPOpHfFjS_Vl6o"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/switching-context

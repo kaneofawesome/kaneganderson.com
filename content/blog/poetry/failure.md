@@ -5,6 +5,7 @@ lastmod: 2023-11-14T19:06:39Z
 draft: false
 slug: "failure"
 categories: ["Poetry"]
+cover: "/images/2023/11/14/failure1.png"
 author: "Kane"
 aliases:
   - /index.php/blog/poetry/failure

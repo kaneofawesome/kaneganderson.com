@@ -4,6 +4,7 @@ date: 2025-01-10T13:07:18Z
 draft: false
 slug: "mooncast-wireless-power"
 categories: ["Journal"]
+cover: "/images/2025/01/10/odonnel-space-station1.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/mooncast-wireless-power

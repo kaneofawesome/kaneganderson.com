@@ -4,6 +4,7 @@ date: 2025-06-03T12:45:12Z
 draft: false
 slug: "rose-blumkin"
 categories: ["Journal"]
+cover: "/images/2025/06/03/rose_blumkin.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/rose-blumkin

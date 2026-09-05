@@ -4,6 +4,7 @@ date: 2023-12-05T17:17:42Z
 draft: false
 slug: "clear-thinking"
 categories: ["Books"]
+cover: "/images/2023/12/05/pxl_20231128_202116464.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/clear-thinking

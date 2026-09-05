@@ -5,6 +5,7 @@ lastmod: 2023-10-20T20:28:04Z
 draft: false
 slug: "faramir"
 categories: ["Blog"]
+cover: "/images/2023/10/20/brave_i9g9bmev4c.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/faramir

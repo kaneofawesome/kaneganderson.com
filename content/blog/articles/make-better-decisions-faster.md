@@ -4,6 +4,7 @@ date: 2025-05-19T00:19:19Z
 draft: false
 slug: "make-better-decisions-faster"
 categories: ["Blog"]
+cover: "/images/2025/05/19/make-decisions.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/make-better-decisions-faster

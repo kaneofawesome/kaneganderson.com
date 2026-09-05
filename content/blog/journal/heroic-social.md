@@ -5,6 +5,7 @@ draft: false
 slug: "heroic-social"
 categories: ["Journal"]
 featured: true
+cover: "/images/2024/02/26/typing-fast.gif"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/heroic-social

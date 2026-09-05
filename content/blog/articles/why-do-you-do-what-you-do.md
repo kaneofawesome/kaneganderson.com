@@ -5,6 +5,7 @@ lastmod: 2023-11-10T05:40:32Z
 draft: false
 slug: "why-do-you-do-what-you-do"
 categories: ["Blog"]
+cover: "/images/2023/11/10/brave_ceepa3a5ma.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/why-do-you-do-what-you-do

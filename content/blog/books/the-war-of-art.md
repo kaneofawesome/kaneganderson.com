@@ -5,6 +5,7 @@ lastmod: 2024-05-03T15:33:32Z
 draft: false
 slug: "the-war-of-art"
 categories: ["Books"]
+cover: "/images/2024/05/03/pxl_20240503_130927840.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/the-war-of-art

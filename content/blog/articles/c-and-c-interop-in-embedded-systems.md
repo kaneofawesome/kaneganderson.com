@@ -4,6 +4,7 @@ date: 2025-06-18T01:06:54Z
 draft: false
 slug: "c-and-c-interop-in-embedded-systems"
 categories: ["Blog"]
+cover: "/images/2025/06/18/coding-horror.png"
 author: "Kane"
 aliases:
   - /index.php/blog/articles/c-and-c-interop-in-embedded-systems

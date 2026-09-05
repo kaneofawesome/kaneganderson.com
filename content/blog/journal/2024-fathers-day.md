@@ -5,6 +5,10 @@ lastmod: 2024-06-19T21:42:21Z
 draft: false
 slug: "2024-fathers-day"
 categories: ["Journal"]
+cover: "/images/2024/06/18/448405506_10159837793525233_4638060454194643277_n.jpg"
+gallery:
+  - "/images/2024/06/18/448405506_10159837793525233_4638060454194643277_n1.jpg"
+  - "/images/2024/06/18/img_20240618_135843.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/2024-fathers-day

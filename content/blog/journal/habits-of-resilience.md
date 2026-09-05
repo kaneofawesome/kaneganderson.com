@@ -4,6 +4,7 @@ date: 2023-10-18T01:38:23Z
 draft: false
 slug: "habits-of-resilience"
 categories: ["Journal"]
+cover: "/images/2023/10/18/resilient1.png"
 author: "Kane"
 aliases:
   - /index.php/blog/journal/habits-of-resilience

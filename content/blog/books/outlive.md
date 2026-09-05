@@ -5,6 +5,7 @@ lastmod: 2025-09-15T14:20:23Z
 draft: false
 slug: "outlive"
 categories: ["Books"]
+cover: "/images/2025/09/15/outlive.jpg"
 author: "Kane"
 aliases:
   - /index.php/blog/books/outlive
