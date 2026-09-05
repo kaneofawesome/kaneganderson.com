@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="post">
+  <h1>{{ .Title }}</h1>
+  <p class="meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ with .Params.categories }} · {{ delimit . ", " }}{{ end }}
+    {{ if gt .ReadingTime 1 }} · {{ .ReadingTime }} min read{{ end }}
+  </p>
+  {{ .Content }}
+  {{ with .Params.tags }}
+  <p class="tags">{{ range . }}<a href="{{ (printf "/tags/%s/" (urlize .)) | relURL }}">#{{ . }}</a> {{ end }}</p>
+  {{ end }}
+</article>
+{{ end }}

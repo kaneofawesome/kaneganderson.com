@@ -1,0 +1,35 @@
+#!/bin/sh
+# Copies the images actually referenced by the posts out of the Joomla
+# images/ tree and into static/images/ under web-safe names.
+# Usage: sh collect-images.sh /path/to/extracted/images
+set -e
+SRC="${1:?usage: collect-images.sh <extracted images dir>}"
+
+mkdir -p "static/images/$(dirname '2024/05/30/no-pressure-no-diamonds.jpg')"
+cp "$SRC/2024/05/30/no pressure no diamonds.jpg" "static/images/2024/05/30/no-pressure-no-diamonds.jpg"
+mkdir -p "static/images/$(dirname '2024/06/03/tripartite-products.png')"
+cp "$SRC/2024/06/03/Tripartite-products.png" "static/images/2024/06/03/tripartite-products.png"
+mkdir -p "static/images/$(dirname '2024/06/11/color-hunt-palette-07133737b5b6b180f0f7bb7f.png')"
+cp "$SRC/2024/06/11/Color Hunt Palette 07133737b5b6b180f0f7bb7f.png" "static/images/2024/06/11/color-hunt-palette-07133737b5b6b180f0f7bb7f.png"
+mkdir -p "static/images/$(dirname '2024/06/11/color-hunt-palette-f8f8f8b180f037b5b62222221.png')"
+cp "$SRC/2024/06/11/Color Hunt Palette f8f8f8b180f037b5b62222221.png" "static/images/2024/06/11/color-hunt-palette-f8f8f8b180f037b5b62222221.png"
+mkdir -p "static/images/$(dirname '2024/07/08/dall-e-2024-07-08-12.35.46-a-colorful-oil-painting-of-a-modern-looking-man-sitting-at-a-sleek-desk-in-a-contemporary-office-writing-in-a-simple-journal.-the-man-is-casually-dre.webp')"
+cp "$SRC/2024/07/08/DALL·E 2024-07-08 12.35.46 - A colorful oil painting of a modern-looking man sitting at a sleek desk in a contemporary office, writing in a simple journal. The man is casually dre.webp" "static/images/2024/07/08/dall-e-2024-07-08-12.35.46-a-colorful-oil-painting-of-a-modern-looking-man-sitting-at-a-sleek-desk-in-a-contemporary-office-writing-in-a-simple-journal.-the-man-is-casually-dre.webp"
+mkdir -p "static/images/$(dirname '2025/09/22/inspired-product-development-cycle.jpg')"
+cp "$SRC/2025/09/22/inspired-product-development-cycle.jpg" "static/images/2025/09/22/inspired-product-development-cycle.jpg"
+mkdir -p "static/images/$(dirname 'lightsail-console.png')"
+cp "$SRC/Lightsail-console.png" "static/images/lightsail-console.png"
+mkdir -p "static/images/$(dirname 'microsoftteams-image-75.png')"
+cp "$SRC/MicrosoftTeams-image 75.png" "static/images/microsoftteams-image-75.png"
+mkdir -p "static/images/$(dirname 'courage-connection.png')"
+cp "$SRC/courage-connection.png" "static/images/courage-connection.png"
+mkdir -p "static/images/$(dirname 'dunning-kruger.mp2.jpg')"
+cp "$SRC/dunning-kruger.MP2.jpg" "static/images/dunning-kruger.mp2.jpg"
+mkdir -p "static/images/$(dirname 'godaddy-dns-record.png')"
+cp "$SRC/godaddy-dns-record.png" "static/images/godaddy-dns-record.png"
+mkdir -p "static/images/$(dirname 'image-20260310-043312.png')"
+cp "$SRC/image-20260310-043312.png" "static/images/image-20260310-043312.png"
+mkdir -p "static/images/$(dirname 'image-20260310-043535.png')"
+cp "$SRC/image-20260310-043535.png" "static/images/image-20260310-043535.png"
+mkdir -p "static/images/$(dirname 'lightsail-static-ip.png')"
+cp "$SRC/lightsail-static-ip.png" "static/images/lightsail-static-ip.png"

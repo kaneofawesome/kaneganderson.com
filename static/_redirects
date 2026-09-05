@@ -1,0 +1,3 @@
+# Joomla SEF URLs carried /index.php/ in the path; strip it.
+/index.php/*  /:splat  301
+/index.php    /        301

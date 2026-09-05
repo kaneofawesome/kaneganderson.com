@@ -1,0 +1,31 @@
+---
+title: "Top 10"
+date: 2023-12-06T04:01:35Z
+lastmod: 2023-12-06T04:16:26Z
+draft: false
+slug: "top-10"
+categories: ["Journal"]
+author: "Kane"
+aliases:
+  - /index.php/blog/journal/top-10
+joomla_id: 24
+---
+
+I recently got really interested in Brian Johnson.  I first discovered his stuff because he was on a podcast I listen to called 'Front Row Dads'.  I loved what he had to say. Then he appeared on another of my regular podcasts, 'Learning Leaders'.  I'm hooked. Everything this guys says resonates with me. I'm all in.  I picked up his new book that just dropped *Arete* and so far it's great.  I joined his heroic.us app as well.  I just kept on getting deeper and deeper - I'm kind of obsessed. All of this took place over the last few weeks, and I convinced my workplace to invest in my training by signing me up for Brian's heroic coach program while it was on sale for Black Friday and 51% off.
+
+The 300-day mastery coaching program starts in January, and meant to help me progress towards "good soul" or *eudaimon*.  In the introduction video to the mastery coaching series, module 0, Brian says that in the end of the program, we'll have to provide our top 10 takeaways. He also challenged us to think about our current top 10 list of things we learned so far in life. I decided to list mine here.
+
+1. **Control your thoughts**, because they become your words & actions, which become your beliefs and habits. Your beliefs and habits shape your character, and if you live long enough then your character is your fate. You can choose what to think about, and you can choose your mood. Voltaire said "the most important decision you make is to be in a good mood"
+2. **Cultivate self-discipline**. Become a slave to your higher reasoning. Epictetus said “Freedom is the name of virtue: Slavery, of vice. None is a slave whose acts are free.” Jocko Willink says discipline = freedom. There are many ways to say it. Freedom in form. No man is free who is not master of himself. These are all ways of saying that if you control yourself, you have power and freedom. Seneca says "most powerful is he who has himself in his own power".
+3. **Nobody can harm you but yourself**. "Sticks and stones can break my bones but words can never hurt me". We all heard this as a kid, but did it really sink in?  You will have hardships in life, that's a given. People are going to speak harshly to you. They will be rude, inconsiderate, selfish, and egotistical. They will be narcissistic. They will say things intended to inflame, provoke, and cajole you. They will say dumb shit. They will hurl insults. Everybody goes through it at one point or another. Another lesson from Epictetus: the only part that actually hurts you is your interpretation of that. If you choose not to be harmed then you won't be. Look not for any greater harm than this: destroying the trustworthy, self-respecting, well-behaved man within you.
+4. **Bias toward action** rather than "wait and see". "Later" is the biggest problem we all face. Dr. Phil Stutz said that the 2 biggest hurdles getting in your way are fear and laziness.
+5. **When in a hole, stop digging**. Chris Hadfield said "there is no problem so bad that you can't make it worse also". Along the same lines... Better to remain silent and be thought a fool than to speak and to remove all doubt. We are our own worst enemy. Sometimes rather than going for a gain, your best option is to stop losing. This is a common theme in what gets talked about by Buffet and Munger. Just try not screw up.
+6. **Own your personality**. Know yourself. Know what you stand for. Know what you want from life and from situations. Embody your philosophy. Don't talk about it, BE about it. Know what your strengths and weaknesses are. Know what you bring to the table. Know your worth. Know yourself so well that you know what you're going to say before it pops into your mind. Be consistent with who you want to be. Be consistent with what you show others of yourself.
+7. **Accepting reality**: Look at the world as it is, not as you wish it to be. If you ever say "that doesn't make sense, it's impossible. It can't continue this way"... re-evaluate your assumptions. Accept what is true. Accept all external events, they don't care whether you like them or not. Objectively judge whatever is in front of you.
+8. **Find exemplars** your can mimic. Tolstoy said "There is nothing more important than an example... [it] leads us to do good deeds which would be impossible without this example. Therefore, if we use dissipated or passionate or cruel people as examples, it destroys our soul. The contrary is also true."  Epictetus said “It is inevitable if you enter into relationships with people on a regular basis that you will grow to be like them…Remember that if you consort with someone covered in dirt you can hardly avoid getting a little grimy yourself.”
+9. **Time management**: Time is one of the only things you can control. You can control what time you get up in the morning and what time you lay down. You can control how long you spend on certain things. You can control who you spend your time with (or not). You can control whether you waste your time. The ultimate statement of your priorities is your calendar/schedule.
+10. **Believe in yourself**: You got this (or you'll find a way to learn it). Napoleon Hill said "What the mind can conceive and believe, it can achieve." Another part to this is... if you don't believe in yourself, why should anyone? People can pick up on insecurity. That's a basic animal survival instinct which has served the species well. If there's a life and death situation, you can't afford to sputter out. Be decisive. Take the time to think it through (ahead of time if possible). Use Premeditatio Malorum (the premeditation of evil) to think about what can go wrong and prepare yourself because you can AND WILL make it through.
+
+As I anticipate the start of the mastery coaching program, I'm curious to see which of these lessons will continue to hold their place in my top 10, and what new insights I'll gain. I invite you to reflect on your own top life lessons and share them in the comments below.
+
+Disclaimer: the image used was generated by AI

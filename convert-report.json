@@ -1,0 +1,972 @@
+[
+ {
+  "id": "2",
+  "slug": "welcome",
+  "section": "home",
+  "state": "published",
+  "src_chars": 45,
+  "md_chars": 39,
+  "hits": 0,
+  "path": "content/_index.md"
+ },
+ {
+  "id": "5",
+  "slug": "switching-context",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 2598,
+  "md_chars": 2477,
+  "hits": 791,
+  "path": "content/blog/articles/switching-context.md"
+ },
+ {
+  "id": "6",
+  "slug": "ultimate-sales-machine",
+  "section": "books",
+  "state": "published",
+  "src_chars": 3052,
+  "md_chars": 2763,
+  "hits": 663,
+  "path": "content/blog/books/ultimate-sales-machine.md"
+ },
+ {
+  "id": "7",
+  "slug": "who-do-you-want-to-be",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1127,
+  "md_chars": 809,
+  "hits": 613,
+  "path": "content/blog/journal/who-do-you-want-to-be.md"
+ },
+ {
+  "id": "8",
+  "slug": "enchiridion",
+  "section": "books",
+  "state": "published",
+  "src_chars": 11314,
+  "md_chars": 5606,
+  "hits": 701,
+  "path": "content/blog/books/enchiridion.md"
+ },
+ {
+  "id": "9",
+  "slug": "strict-lenient",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1982,
+  "md_chars": 1732,
+  "hits": 722,
+  "path": "content/blog/journal/strict-lenient.md"
+ },
+ {
+  "id": "10",
+  "slug": "perseverance-parenting-programming",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 3064,
+  "md_chars": 1813,
+  "hits": 659,
+  "path": "content/blog/articles/perseverance-parenting-programming.md"
+ },
+ {
+  "id": "11",
+  "slug": "self-assessment",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 761,
+  "md_chars": 589,
+  "hits": 704,
+  "path": "content/blog/journal/self-assessment.md"
+ },
+ {
+  "id": "12",
+  "slug": "leadership-scorecard",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 491,
+  "md_chars": 388,
+  "hits": 598,
+  "path": "content/blog/journal/leadership-scorecard.md"
+ },
+ {
+  "id": "13",
+  "slug": "habits-of-resilience",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 3480,
+  "md_chars": 3036,
+  "hits": 682,
+  "path": "content/blog/journal/habits-of-resilience.md"
+ },
+ {
+  "id": "14",
+  "slug": "faramir",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 8536,
+  "md_chars": 2179,
+  "hits": 747,
+  "path": "content/blog/articles/faramir.md"
+ },
+ {
+  "id": "15",
+  "slug": "reading-wish-list",
+  "section": "books",
+  "state": "published",
+  "src_chars": 212,
+  "md_chars": 78,
+  "hits": 797,
+  "path": "content/blog/books/reading-wish-list.md"
+ },
+ {
+  "id": "16",
+  "slug": "to-begin-you-must-study-the-end",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 868,
+  "md_chars": 723,
+  "hits": 614,
+  "path": "content/blog/articles/to-begin-you-must-study-the-end.md"
+ },
+ {
+  "id": "17",
+  "slug": "movember",
+  "section": "poetry",
+  "state": "published",
+  "src_chars": 577,
+  "md_chars": 502,
+  "hits": 1062,
+  "path": "content/blog/poetry/movember.md"
+ },
+ {
+  "id": "18",
+  "slug": "backburner",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 7180,
+  "md_chars": 4213,
+  "hits": 667,
+  "path": "content/blog/articles/backburner.md"
+ },
+ {
+  "id": "19",
+  "slug": "think-and-grow-rich",
+  "section": "books",
+  "state": "published",
+  "src_chars": 9341,
+  "md_chars": 7018,
+  "hits": 844,
+  "path": "content/blog/books/think-and-grow-rich.md"
+ },
+ {
+  "id": "20",
+  "slug": "why-do-you-do-what-you-do",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 3834,
+  "md_chars": 3630,
+  "hits": 757,
+  "path": "content/blog/articles/why-do-you-do-what-you-do.md"
+ },
+ {
+  "id": "21",
+  "slug": "what-do-you-live-by",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 4232,
+  "md_chars": 3458,
+  "hits": 987,
+  "path": "content/blog/articles/what-do-you-live-by.md"
+ },
+ {
+  "id": "22",
+  "slug": "failure",
+  "section": "poetry",
+  "state": "published",
+  "src_chars": 286,
+  "md_chars": 244,
+  "hits": 954,
+  "path": "content/blog/poetry/failure.md"
+ },
+ {
+  "id": "23",
+  "slug": "clear-thinking",
+  "section": "books",
+  "state": "published",
+  "src_chars": 10180,
+  "md_chars": 9459,
+  "hits": 781,
+  "path": "content/blog/books/clear-thinking.md"
+ },
+ {
+  "id": "24",
+  "slug": "top-10",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 6322,
+  "md_chars": 6013,
+  "hits": 741,
+  "path": "content/blog/journal/top-10.md"
+ },
+ {
+  "id": "25",
+  "slug": "atomic-habits",
+  "section": "books",
+  "state": "published",
+  "src_chars": 9204,
+  "md_chars": 7947,
+  "hits": 920,
+  "path": "content/blog/books/atomic-habits.md"
+ },
+ {
+  "id": "26",
+  "slug": "heroic-vocabulary",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 4404,
+  "md_chars": 4270,
+  "hits": 611,
+  "path": "content/blog/journal/heroic-vocabulary.md"
+ },
+ {
+  "id": "27",
+  "slug": "play-bigger",
+  "section": "books",
+  "state": "published",
+  "src_chars": 1169,
+  "md_chars": 708,
+  "hits": 1055,
+  "path": "content/blog/books/play-bigger.md"
+ },
+ {
+  "id": "28",
+  "slug": "never-split-the-difference",
+  "section": "books",
+  "state": "published",
+  "src_chars": 1682,
+  "md_chars": 1028,
+  "hits": 792,
+  "path": "content/blog/books/never-split-the-difference.md"
+ },
+ {
+  "id": "29",
+  "slug": "heroic-social",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 436,
+  "md_chars": 227,
+  "hits": 720,
+  "path": "content/blog/journal/heroic-social.md"
+ },
+ {
+  "id": "30",
+  "slug": "criticism-condemnation-and-complaints",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1387,
+  "md_chars": 1348,
+  "hits": 529,
+  "path": "content/blog/journal/criticism-condemnation-and-complaints.md"
+ },
+ {
+  "id": "31",
+  "slug": "2024-mar-apr-new-pcbs",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 567,
+  "md_chars": 554,
+  "hits": 487,
+  "path": "content/blog/journal/2024-mar-apr-new-pcbs.md"
+ },
+ {
+  "id": "32",
+  "slug": "the-republic",
+  "section": "books",
+  "state": "published",
+  "src_chars": 17944,
+  "md_chars": 17563,
+  "hits": 745,
+  "path": "content/blog/books/the-republic.md"
+ },
+ {
+  "id": "33",
+  "slug": "the-war-of-art",
+  "section": "books",
+  "state": "published",
+  "src_chars": 20231,
+  "md_chars": 18846,
+  "hits": 797,
+  "path": "content/blog/books/the-war-of-art.md"
+ },
+ {
+  "id": "34",
+  "slug": "the-four-agreements",
+  "section": "books",
+  "state": "published",
+  "src_chars": 11254,
+  "md_chars": 10175,
+  "hits": 737,
+  "path": "content/blog/books/the-four-agreements.md"
+ },
+ {
+  "id": "35",
+  "slug": "no-pressure-no-diamonds",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 4633,
+  "md_chars": 4331,
+  "hits": 1029,
+  "path": "content/blog/journal/no-pressure-no-diamonds.md"
+ },
+ {
+  "id": "36",
+  "slug": "the-three-facets-of-product-design",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 3362,
+  "md_chars": 3180,
+  "hits": 636,
+  "path": "content/blog/articles/the-three-facets-of-product-design.md"
+ },
+ {
+  "id": "43",
+  "slug": "bourbon-sweet-love-recipe",
+  "section": "recipes",
+  "state": "published",
+  "src_chars": 358,
+  "md_chars": 305,
+  "hits": 829,
+  "path": "content/blog/recipes/bourbon-sweet-love-recipe.md"
+ },
+ {
+  "id": "44",
+  "slug": "mango-minute",
+  "section": "recipes",
+  "state": "published",
+  "src_chars": 313,
+  "md_chars": 262,
+  "hits": 695,
+  "path": "content/blog/recipes/mango-minute.md"
+ },
+ {
+  "id": "45",
+  "slug": "kanes-favorite-colors",
+  "section": "unfiled",
+  "state": "published",
+  "src_chars": 311,
+  "md_chars": 143,
+  "hits": 0,
+  "path": "content/unfiled/kanes-favorite-colors.md"
+ },
+ {
+  "id": "52",
+  "slug": "my-favorite-colors-5",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 561,
+  "md_chars": 303,
+  "hits": 535,
+  "path": "content/blog/journal/my-favorite-colors-5.md"
+ },
+ {
+  "id": "53",
+  "slug": "2024-fathers-day",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 795,
+  "md_chars": 635,
+  "hits": 539,
+  "path": "content/blog/journal/2024-fathers-day.md"
+ },
+ {
+  "id": "54",
+  "slug": "homeless",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 1170,
+  "md_chars": 1150,
+  "hits": 1,
+  "path": "archive/homeless.md"
+ },
+ {
+  "id": "55",
+  "slug": "homeless-2",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 1170,
+  "md_chars": 1150,
+  "hits": 1,
+  "path": "archive/homeless-2.md"
+ },
+ {
+  "id": "56",
+  "slug": "homeless-3",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1170,
+  "md_chars": 1150,
+  "hits": 511,
+  "path": "content/blog/journal/homeless-3.md"
+ },
+ {
+  "id": "57",
+  "slug": "3-3-3-x-3",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 13462,
+  "md_chars": 7059,
+  "hits": 2073,
+  "path": "content/blog/articles/3-3-3-x-3.md"
+ },
+ {
+  "id": "58",
+  "slug": "3-3-3-x-4",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 1498,
+  "md_chars": 1031,
+  "hits": 1,
+  "path": "archive/3-3-3-x-4.md"
+ },
+ {
+  "id": "59",
+  "slug": "3-3-3-x-5",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 7740,
+  "md_chars": 6503,
+  "hits": 5,
+  "path": "archive/3-3-3-x-5.md"
+ },
+ {
+  "id": "60",
+  "slug": "product-roadmaps",
+  "section": "unfiled",
+  "state": "published",
+  "src_chars": 8363,
+  "md_chars": 4361,
+  "hits": 0,
+  "path": "content/unfiled/product-roadmaps.md"
+ },
+ {
+  "id": "61",
+  "slug": "product-roadmaps-2",
+  "section": "unfiled",
+  "state": "published",
+  "src_chars": 8363,
+  "md_chars": 4361,
+  "hits": 0,
+  "path": "content/unfiled/product-roadmaps-2.md"
+ },
+ {
+  "id": "62",
+  "slug": "product-roadmaps",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 8363,
+  "md_chars": 4361,
+  "hits": 670,
+  "path": "content/blog/articles/product-roadmaps.md"
+ },
+ {
+  "id": "63",
+  "slug": "sept-2024",
+  "section": "poetry",
+  "state": "published",
+  "src_chars": 342,
+  "md_chars": 225,
+  "hits": 744,
+  "path": "content/blog/poetry/sept-2024.md"
+ },
+ {
+  "id": "64",
+  "slug": "my-heroic-enchiridion",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 21059,
+  "md_chars": 20393,
+  "hits": 1011,
+  "path": "content/blog/journal/my-heroic-enchiridion.md"
+ },
+ {
+  "id": "65",
+  "slug": "certified-heroic-coach",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 663,
+  "md_chars": 642,
+  "hits": 554,
+  "path": "content/blog/journal/certified-heroic-coach.md"
+ },
+ {
+  "id": "66",
+  "slug": "2024-11-25",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 4513,
+  "md_chars": 4405,
+  "hits": 460,
+  "path": "content/blog/journal/2024-11-25.md"
+ },
+ {
+  "id": "67",
+  "slug": "learned-excellence",
+  "section": "books",
+  "state": "published",
+  "src_chars": 8818,
+  "md_chars": 8477,
+  "hits": 639,
+  "path": "content/blog/books/learned-excellence.md"
+ },
+ {
+  "id": "68",
+  "slug": "mooncast-wireless-power",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1020,
+  "md_chars": 899,
+  "hits": 529,
+  "path": "content/blog/journal/mooncast-wireless-power.md"
+ },
+ {
+  "id": "69",
+  "slug": "big-goals",
+  "section": "books",
+  "state": "published",
+  "src_chars": 7477,
+  "md_chars": 7149,
+  "hits": 700,
+  "path": "content/blog/books/big-goals.md"
+ },
+ {
+  "id": "70",
+  "slug": "big-goals-2",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 2637,
+  "md_chars": 2552,
+  "hits": 3,
+  "path": "archive/big-goals-2.md"
+ },
+ {
+  "id": "71",
+  "slug": "big-goals-3",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 2637,
+  "md_chars": 2552,
+  "hits": 4,
+  "path": "archive/big-goals-3.md"
+ },
+ {
+  "id": "72",
+  "slug": "self-imposed-immaturity-immanuel-kant",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 642,
+  "md_chars": 449,
+  "hits": 778,
+  "path": "content/blog/quotes/self-imposed-immaturity-immanuel-kant.md"
+ },
+ {
+  "id": "73",
+  "slug": "sapere-aude",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 2277,
+  "md_chars": 1776,
+  "hits": 8058,
+  "path": "content/blog/articles/sapere-aude.md"
+ },
+ {
+  "id": "74",
+  "slug": "minute-of-passion",
+  "section": "unfiled",
+  "state": "unpublished",
+  "src_chars": 415,
+  "md_chars": 300,
+  "hits": 0,
+  "path": "content/unfiled/minute-of-passion.md"
+ },
+ {
+  "id": "75",
+  "slug": "minute-of-passion-2",
+  "section": "unfiled",
+  "state": "unpublished",
+  "src_chars": 468,
+  "md_chars": 327,
+  "hits": 0,
+  "path": "content/unfiled/minute-of-passion-2.md"
+ },
+ {
+  "id": "76",
+  "slug": "minute-of-passion",
+  "section": "recipes",
+  "state": "published",
+  "src_chars": 469,
+  "md_chars": 328,
+  "hits": 658,
+  "path": "content/blog/recipes/minute-of-passion.md"
+ },
+ {
+  "id": "77",
+  "slug": "for-want-of-a-unit-test",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 1827,
+  "md_chars": 1391,
+  "hits": 735,
+  "path": "content/blog/articles/for-want-of-a-unit-test.md"
+ },
+ {
+  "id": "78",
+  "slug": "looking-at-things-dyer",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 96,
+  "md_chars": 84,
+  "hits": 520,
+  "path": "content/blog/quotes/looking-at-things-dyer.md"
+ },
+ {
+  "id": "79",
+  "slug": "time-affluence-brian-johnson",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 1399,
+  "md_chars": 1292,
+  "hits": 588,
+  "path": "content/blog/quotes/time-affluence-brian-johnson.md"
+ },
+ {
+  "id": "80",
+  "slug": "your-kids-burden-carl-jung",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 108,
+  "md_chars": 87,
+  "hits": 600,
+  "path": "content/blog/quotes/your-kids-burden-carl-jung.md"
+ },
+ {
+  "id": "81",
+  "slug": "make-better-decisions-faster",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 324,
+  "md_chars": 258,
+  "hits": 514,
+  "path": "content/blog/articles/make-better-decisions-faster.md"
+ },
+ {
+  "id": "82",
+  "slug": "new-q-pac-laptop",
+  "section": "journal",
+  "state": "unpublished",
+  "src_chars": 890,
+  "md_chars": 604,
+  "hits": 9,
+  "path": "content/blog/journal/new-q-pac-laptop.md"
+ },
+ {
+  "id": "83",
+  "slug": "rose-blumkin",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 5574,
+  "md_chars": 4820,
+  "hits": 613,
+  "path": "content/blog/journal/rose-blumkin.md"
+ },
+ {
+  "id": "84",
+  "slug": "cicero-on-epicurus",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 395,
+  "md_chars": 283,
+  "hits": 425,
+  "path": "content/blog/journal/cicero-on-epicurus.md"
+ },
+ {
+  "id": "85",
+  "slug": "cynicism-and-hopefulness",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 1087,
+  "md_chars": 1007,
+  "hits": 530,
+  "path": "content/blog/quotes/cynicism-and-hopefulness.md"
+ },
+ {
+  "id": "86",
+  "slug": "c-and-c-interop-in-embedded-systems",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 293231,
+  "md_chars": 24211,
+  "hits": 775,
+  "path": "content/blog/articles/c-and-c-interop-in-embedded-systems.md"
+ },
+ {
+  "id": "87",
+  "slug": "outlive",
+  "section": "books",
+  "state": "published",
+  "src_chars": 11367,
+  "md_chars": 10700,
+  "hits": 460,
+  "path": "content/blog/books/outlive.md"
+ },
+ {
+  "id": "88",
+  "slug": "test-book-article",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 0,
+  "md_chars": 1,
+  "hits": 1,
+  "path": "archive/test-book-article.md"
+ },
+ {
+  "id": "89",
+  "slug": "electronics-testing-and-the-pareto-principle",
+  "section": "articles",
+  "state": "published",
+  "src_chars": 36265,
+  "md_chars": 16093,
+  "hits": 679,
+  "path": "content/blog/articles/electronics-testing-and-the-pareto-principle.md"
+ },
+ {
+  "id": "90",
+  "slug": "aws-lightsail-ubuntu-instance-hosting-wordpress-gitlab",
+  "section": "journal",
+  "state": "unpublished",
+  "src_chars": 1538,
+  "md_chars": 1130,
+  "hits": 26,
+  "path": "content/blog/journal/aws-lightsail-ubuntu-instance-hosting-wordpress-gitlab.md"
+ },
+ {
+  "id": "91",
+  "slug": "21-days-no-complaints",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1004,
+  "md_chars": 923,
+  "hits": 368,
+  "path": "content/blog/journal/21-days-no-complaints.md"
+ },
+ {
+  "id": "92",
+  "slug": "21-days-no-complaints-2",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 1004,
+  "md_chars": 923,
+  "hits": 1,
+  "path": "archive/21-days-no-complaints-2.md"
+ },
+ {
+  "id": "93",
+  "slug": "about-kane",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1409,
+  "md_chars": 1188,
+  "hits": 556,
+  "path": "content/blog/journal/about-kane.md"
+ },
+ {
+  "id": "94",
+  "slug": "inspired",
+  "section": "books",
+  "state": "published",
+  "src_chars": 17648,
+  "md_chars": 16263,
+  "hits": 515,
+  "path": "content/blog/books/inspired.md"
+ },
+ {
+  "id": "95",
+  "slug": "the-last-8-high-performing-teams",
+  "section": "archive",
+  "state": "trashed",
+  "src_chars": 1303,
+  "md_chars": 1268,
+  "hits": 1,
+  "path": "archive/the-last-8-high-performing-teams.md"
+ },
+ {
+  "id": "96",
+  "slug": "the-last-8-high-performing-teams-2",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 4482,
+  "md_chars": 4152,
+  "hits": 695,
+  "path": "content/blog/journal/the-last-8-high-performing-teams-2.md"
+ },
+ {
+  "id": "97",
+  "slug": "heart-health-2025",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 1726,
+  "md_chars": 1691,
+  "hits": 368,
+  "path": "content/blog/journal/heart-health-2025.md"
+ },
+ {
+  "id": "98",
+  "slug": "the-fisherman",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 3821,
+  "md_chars": 3074,
+  "hits": 560,
+  "path": "content/blog/journal/the-fisherman.md"
+ },
+ {
+  "id": "99",
+  "slug": "keep-yourself-marcus-aurelius",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 186,
+  "md_chars": 174,
+  "hits": 439,
+  "path": "content/blog/quotes/keep-yourself-marcus-aurelius.md"
+ },
+ {
+  "id": "100",
+  "slug": "lay-a-foundation-of-humility-saint-augustine",
+  "section": "quotes",
+  "state": "published",
+  "src_chars": 158,
+  "md_chars": 147,
+  "hits": 431,
+  "path": "content/blog/quotes/lay-a-foundation-of-humility-saint-augustine.md"
+ },
+ {
+  "id": "101",
+  "slug": "the-surrender-experiment",
+  "section": "books",
+  "state": "published",
+  "src_chars": 10330,
+  "md_chars": 10036,
+  "hits": 415,
+  "path": "content/blog/books/the-surrender-experiment.md"
+ },
+ {
+  "id": "102",
+  "slug": "rust-tutor",
+  "section": "journal",
+  "state": "unpublished",
+  "src_chars": 521,
+  "md_chars": 503,
+  "hits": 0,
+  "path": "content/blog/journal/rust-tutor.md"
+ },
+ {
+  "id": "103",
+  "slug": "want-to-buy-me-a-coffee",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 51,
+  "md_chars": 32,
+  "hits": 392,
+  "path": "content/blog/journal/want-to-buy-me-a-coffee.md"
+ },
+ {
+  "id": "104",
+  "slug": "off-balance",
+  "section": "books",
+  "state": "published",
+  "src_chars": 6910,
+  "md_chars": 6555,
+  "hits": 334,
+  "path": "content/blog/books/off-balance.md"
+ },
+ {
+  "id": "105",
+  "slug": "heroic-activation-2026-01-10",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 274,
+  "md_chars": 184,
+  "hits": 324,
+  "path": "content/blog/journal/heroic-activation-2026-01-10.md"
+ },
+ {
+  "id": "106",
+  "slug": "proton-mail",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 369,
+  "md_chars": 318,
+  "hits": 276,
+  "path": "content/blog/journal/proton-mail.md"
+ },
+ {
+  "id": "107",
+  "slug": "steve-wozniak",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 448,
+  "md_chars": 292,
+  "hits": 273,
+  "path": "content/blog/journal/steve-wozniak.md"
+ },
+ {
+  "id": "108",
+  "slug": "claude-access-to-jenkins-mcp-server",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 595,
+  "md_chars": 392,
+  "hits": 264,
+  "path": "content/blog/journal/claude-access-to-jenkins-mcp-server.md"
+ },
+ {
+  "id": "109",
+  "slug": "claudeignore",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 6715,
+  "md_chars": 3130,
+  "hits": 1376,
+  "path": "content/blog/journal/claudeignore.md"
+ },
+ {
+  "id": "110",
+  "slug": "i-asked-claude-to-roast-my-ai-prompting",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 13372,
+  "md_chars": 7475,
+  "hits": 288,
+  "path": "content/blog/journal/i-asked-claude-to-roast-my-ai-prompting.md"
+ },
+ {
+  "id": "111",
+  "slug": "j-w-marriott-on-leading",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 3203,
+  "md_chars": 2893,
+  "hits": 322,
+  "path": "content/blog/journal/j-w-marriott-on-leading.md"
+ },
+ {
+  "id": "112",
+  "slug": "how-do-others-perceive-you-regarding-leadership",
+  "section": "journal",
+  "state": "published",
+  "src_chars": 4328,
+  "md_chars": 3660,
+  "hits": 204,
+  "path": "content/blog/journal/how-do-others-perceive-you-regarding-leadership.md"
+ }
+]

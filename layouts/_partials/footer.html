@@ -1,0 +1,7 @@
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; {{ now.Year }} {{ site.Params.author }}
+      {{ with .OutputFormats.Get "rss" }}· <a href="{{ .Permalink }}">RSS</a>{{ end }}
+    </p>
+  </div>
+</footer>

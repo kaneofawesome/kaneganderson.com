@@ -1,0 +1,49 @@
+baseURL = "https://www.kaneganderson.com/"
+languageCode = "en-us"
+title = "Kane G. Anderson"
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  description = "Engineering, books, and notes from St. Augustine, Florida."
+  author = "Kane Anderson"
+
+[pagination]
+  pagerSize = 20
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+  style = "github"
+  lineNos = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name = "Articles"
+  url = "/blog/articles/"
+  weight = 1
+[[menu.main]]
+  name = "Journal"
+  url = "/blog/journal/"
+  weight = 2
+[[menu.main]]
+  name = "Books"
+  url = "/blog/books/"
+  weight = 3
+[[menu.main]]
+  name = "Poetry"
+  url = "/blog/poetry/"
+  weight = 4
+[[menu.main]]
+  name = "Quotes"
+  url = "/blog/quotes/"
+  weight = 5
+[[menu.main]]
+  name = "Recipes"
+  url = "/blog/recipes/"
+  weight = 6
