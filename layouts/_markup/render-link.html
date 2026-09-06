@@ -1,0 +1,8 @@
+{{- /* Same leading-slash correction for internal links. */ -}}
+{{- $dest := .Destination -}}
+{{- if strings.HasPrefix $dest "/" -}}
+  {{- $dest = strings.TrimPrefix "/" $dest | relURL -}}
+{{- end -}}
+<a href="{{ $dest }}"{{ with .Title }} title="{{ . }}"{{ end }}
+   {{- if strings.HasPrefix .Destination "http" }} rel="noopener"{{ end -}}
+>{{ .Text | safeHTML }}</a>

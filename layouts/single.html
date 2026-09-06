@@ -19,7 +19,7 @@
 
   {{ with .Params.cover }}
   <figure class="cover">
-    <img src="{{ . | relURL }}" alt="{{ $.Params.cover_alt | default $.Title }}" loading="lazy">
+    <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Params.cover_alt | default $.Title }}" loading="lazy">
     {{ with $.Params.cover_alt }}<figcaption>{{ . }}</figcaption>{{ end }}
   </figure>
   {{ end }}
@@ -28,7 +28,7 @@
 
   {{ with .Params.gallery }}
   <div class="gallery">
-    {{ range . }}<a href="{{ . | relURL }}"><img src="{{ . | relURL }}" alt="" loading="lazy"></a>{{ end }}
+    {{ range . }}{{ $u := strings.TrimPrefix "/" . | relURL }}<a href="{{ $u }}"><img src="{{ $u }}" alt="" loading="lazy"></a>{{ end }}
   </div>
   {{ end }}
 

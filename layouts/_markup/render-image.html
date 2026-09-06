@@ -1,0 +1,9 @@
+{{- /* Hugo's relURL leaves a leading-slash path alone, which breaks any build
+       served from a subpath (a GitHub Pages project site, a preview URL).
+       Trim the slash first so the base path is applied. External URLs pass
+       through untouched. */ -}}
+{{- $src := .Destination -}}
+{{- if strings.HasPrefix $src "/" -}}
+  {{- $src = strings.TrimPrefix "/" $src | relURL -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
