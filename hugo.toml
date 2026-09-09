@@ -2,6 +2,13 @@ baseURL = "https://www.kaneganderson.com/"
 languageCode = "en-us"
 title = "Kane G. Anderson"
 enableRobotsTXT = true
+
+# Emit page-relative asset and link URLs, making built site address-agnostic:
+# renders correctly at the apex, a GitHub Pages project subpath, or from a local
+# directory. baseURL still governs canonical tags, RSS and sitemap
+relativeURLs = true
+canonifyURLs = false
+
 enableEmoji = true
 
 [params]

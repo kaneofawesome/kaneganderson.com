@@ -24,8 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Pinned deliberately. Hugo is a single binary with no dependency tree —
-      # bump this on purpose, not by surprise.
+      # Pinned deliberately. Hugo is a single binary with no dependency tree
       HUGO_VERSION: 0.152.0
     steps:
       - name: Install Hugo
@@ -48,7 +47,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
+        run: hugo --gc --minify --baseURL "https://www.kaneganderson.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

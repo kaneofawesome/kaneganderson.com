@@ -30,6 +30,17 @@ Each post carries `joomla_id` (its old `jos_content` row) and, where the old URL
 appeared in the server access logs, an `aliases` entry so the previous link
 still resolves.
 
+## URLs and asset paths
+
+`relativeURLs = true` in `hugo.toml`, so every asset and internal link is
+emitted page-relative. Therefore `baseURL` doesn't affect rendering.
+`<link rel="canonical">`, the RSS feed and the sitemap must be absolute.
+The workflow passes the canonical apex explicitly for that reason.
+
+Do not pass subpath baseURL while `relativeURLs` is on. Hugo adds the
+subpath to an already-relative path and produce `./repo-name/css/...`, which
+misses.
+
 ## Deployment
 
 Pushes to `main` trigger `.github/workflows/hugo.yml`, which builds with a
